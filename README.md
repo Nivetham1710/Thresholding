@@ -8,22 +8,16 @@ To segment the image using global thresholding, adaptive thresholding and Otsu's
 ## Algorithm
 ## Step1:
 Import the necessary packages.
-
 ## Step2:
 Create the Text using cv2.putText.
-
 ## Step3:
 Create the Global thresholding to segment the image.
-
 ## Step4:
 Create Adaptive thresholding to segment the image.
-
 ## Step5:
 Otsu's method to segment the image.
-
 ## Step6:
 End the program.
-
 ## Program
 ~~~
  Developed by:Nivetha M
@@ -63,7 +57,6 @@ ret,thresh_img6=cv2.threshold(gray_img,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 titles=["Gray Image","Threshold Image (Binary)","Threshold Image (Binary Inverse)","Threshold Image (To Zero)"
        ,"Threshold Image (To Zero-Inverse)","Threshold Image (Truncate)","Otsu","Adaptive Threshold (Mean)","Adaptive Threshold (Gaussian)"]
 images=[gray_img,thresh_img1,thresh_img2,thresh_img3,thresh_img4,thresh_img5,thresh_img6,thresh_img7,thresh_img8]
-
 for i in range(0,9):
     plt.figure(figsize=(5,5))
     plt.subplot(1,2,1)
@@ -92,4 +85,3 @@ for i in range(0,9):
 
 ## Result
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
-
