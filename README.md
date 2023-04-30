@@ -25,9 +25,10 @@ Otsu's method to segment the image.
 End the program.
 
 ## Program
-## Developed by:Nivetha M
-## Register number:212221240034
-
+~~~
+ Developed by:Nivetha M
+ Register number:212221240034
+ ~~~
 ```python
 # Load the necessary packages
 import cv2
